@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kieran Best</title>
+        <link rel="icon" type="image/x-png" href="media/favicon.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width"/>
+        <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+
+<header>
+    <div id="navbar">
+        <ul>
+            <li><a href="#home" target="_self">Home</a></li>
+            <li><a href="#me" target="_self">About</a></li>
+            <li><a href="#projects" target="_self">Projects</a></li>
+            <li><a href="#contact" target="_self">Contact</a></li>
+        </ul>       
+    </div>
+</header>
+
+<body>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <script src="like_button.js"></script>
+
+    <center>
+        <h1>Kieran Best</h1>
+        <video class="video_demon" id="home" loop="" muted="" autoplay="true">
+            <source src="media/tircle.mp4" type="video/mp4">
+        </video>
+
+        <div id="like_button_container"></div>
+
+        <div>
+            <section>
+                <div class="Me" id="me">
+                    <h2 class="title">About</h2>
+                        <div class="row">
+                            <div class="column">
+                                <img src="media/dog1.jpg" alt="dog1" style="border-radius: 25px; height: 250px; width: auto;" class="container">
+                            </div>
+                            <div class="column">
+                                <img src="media/Photo.jpg" alt="me" style="border-radius: 25px; height: 300px; width: auto;" class="container">                            
+                            </div>
+                            <div class="column">
+                                <img src="media/dog2.jpg" alt="dog2" style="border-radius: 25px; height: 250px; width: auto;" class="container">                            
+                            </div>
+                        </div>
+                    <p class="content">
+                        Aside from having the dopiest dogs on the planet, I am a 28 year old computer science graduate from Kent. Graduating with a 2:1 whilst caring for my dogs, children, wife and working full time.
+                        <br><br>
+                        I don't like to make things easy...
+                        <br><br>
+                        I thoroughly enjoy all things programming, from creating games to developing websites. I have a passion for learning new things and I am always looking for new challenges.
+                        <br><br>
+                        I have dabbled in games revolved around Unity and C#, as well as JavaScript and Unreal C++. I enjoy working with C# to create .Net applications as well as using various languages to create AWS based applications that use Lambda, DynamoDB, S3 and API Gateway.
+                        <br><br>
+                        But there's always more to explore.
+                    </p>    
+                </div>
+                <div class="Projects" id="projects">
+                    <h2 class="title" style="color:black">Projects</h2>
+                    <p class="content" style="color:black">Here are some projects I have made in my spare time, click on them to find out more information.</p>    
+                    <div class="row">
+                        <div class="column">
+                            <div class="card">
+                                <p>
+                                    <a href="https://best-website-demo.s3.eu-west-2.amazonaws.com/piano.html" target="_self">
+                                        <img src="media/milestone1.3.png" alt="Piano Education" style="width:100%">
+                                    </a>
+                                </p>
+                                <div class="container">
+                                    <h4 class="title">                                        
+                                        <a href="https://best-website-demo.s3.eu-west-2.amazonaws.com/piano.html" target="_self">
+                                        <b>Educational Piano Application</b></a>
+                                    </h4>
+                                    <p class="content">For my final year University project, I created a educational application to teach players how to read sheet music as well as learn how to play piano.</p>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="column">
+                            <div class="card">
+                                <p>
+                                    <a href="https://best-website-demo.s3.eu-west-2.amazonaws.com/tircle.html" target="_self">
+                                        <img src="media/tircle icon.png" alt="Tircle" style="width:100%">
+                                    </a>
+                                </p>
+                                <div class="container">
+                                    <h4 class="title">                                        
+                                        <a href="https://best-website-demo.s3.eu-west-2.amazonaws.com/tircle.html" target="_self">
+                                        <b>Tircle</b></a>
+                                    </h4>
+                                    <p class="content">'Tircle' is a game I created to further my knowledge of Unity. The aim was to create a game of tag using enemy AI to try and catch you, and then reverse states to make the enemy flee.</p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="Contact" id="contact" >
+                    <h2 class="title" style="color:black">Contact</h2>
+                    <div class="row">
+                        <div class="column"></div>
+                        <div class="contact-img">
+                            <a href="https://www.linkedin.com/in/kieransbest/" target="_self">
+                            <img src="media/LinkedIn_icon.svg.png" alt="Linkedin Profile" style="width: 200px; height: auto;">
+                            </a>
+                        </div>
+                        <div class="column"></div>
+                        <div class="contact-img">
+                            <a href="https://github.com/KieranBest" target="_self">
+                                <img src="media/github icon.png" alt="Github Profile" style="width: 200px; height: auto;">
+                                </a>
+                            </div>
+                        <div class="column"></div>
+                        <div class="contact-img">
+                            <a href="media/CV.docx" target="_blank">
+                                <img src="media/cv icon.png" alt="Download CV Here" style="width: 200px; height: auto;">
+                                </a>
+                        </div>
+                        <div class="column"></div>
+                    </div>
+                </div>
+            </section>    
+        </div>
+    </center>
+</body>
+</html>
