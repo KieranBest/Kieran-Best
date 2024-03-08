@@ -1,26 +1,23 @@
 [
     {
-        "title": "Project A",
+        "title": "This website",
         "imageSrc": "projects/project.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
-        "skills": ["React", "Express", "Node"],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "description": "This is a project made to learn how to build a website using React.",
+        "skills": ["React", "HTML", "CSS"],
+        "source": "https://github.com/KieranBest/Website-Demo"
     },
     {
-        "title": "Project B",
-        "imageSrc": "projects/project.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
-        "skills": ["React", "Express", "Node", "Sass"],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "title": "Tircle",
+        "imageSrc": "projects/tircle.png",
+        "description": "A demo game of tag against an enemy bot.",
+        "skills": ["C#", "Unity", "A Star Pathfinding"],
+        "source": "https://github.com/KieranBest/Tircle"
     },
     {
-        "title": "Project C",
-        "imageSrc": "projects/project.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
-        "skills": ["React", "Express", "Node"],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "title": "Final Year University Project",
+        "imageSrc": "projects/uniProject.png",
+        "description": "A responsive educational tool to teach users how to play piano as well as how to read sheet music. Outputting visual representations of the user's learning progression.",
+        "skills": ["HTML", "CSS", "JavaScript", "Gulp", "Jest", "Agile", "Chart.js"],
+        "source": "https://github.com/KieranBest/Final-Year-Project"
     }
 ]

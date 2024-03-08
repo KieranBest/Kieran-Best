@@ -1,29 +1,25 @@
 [
     {
-        "role": "Software Engineer",
-        "organisation": "Google",
-        "startDate": "Sept, 2022",
+        "role": "Junior Product Developer",
+        "organisation": "BrokerTech Ltd",
+        "startDate": "June, 2023",
         "endDate": "Present",
-        "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-        "imageSrc": "history/google.png"
-    },
-    {
-        "role": "UI Designer",
-        "organisation": "Mirosoft",
-        "startDate": "Aug, 2021",
-        "endDate": "Aug, 2022",
-        "experiences": ["Worked on Windows 11", "Designed the control panel"],
-        "imageSrc": "history/microsoft.png"
-    },
-    {
-        "role": "SWE Intern",
-        "organisation": "Netflix",
-        "startDate": "Apr, 2020",
-        "endDate": "Jun, 2020",
         "experiences": [
-        "Worked on component library",
-        "Helped create UI components"
+            "Implementing required fixes to bugs or new changes to logic through the use of Python.",
+            "Using Javascript, HTML, CSS, XML and Velocity.js to create/edit dynamic document generation as well as AWS Lambda for static document generation.",
+            "Creating/editing regular reports to coincide with customer needs using SQL and python."
         ],
-        "imageSrc": "history/netflix.png"
+        "imageSrc": "history/brokertech.png"
+    },
+    {
+        "role": "University Graduate",
+        "organisation": "Canterbury Christ Church University",
+        "startDate": "September, 2020",
+        "endDate": "June, 2023",
+        "experiences": [
+            "BSc Computer Science Graduate.",
+            "Developed a variety of projects using different languages and methods."
+        ],
+        "imageSrc": "history/cccu.png"
     }
 ]

@@ -17,12 +17,25 @@
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .content {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.pictureList {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    list-style: none;
+    align-items: left;
+}
+
+.aboutImage img{
+    width: 200px;
 }
 
 .aboutImage {

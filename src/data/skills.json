@@ -16,7 +16,35 @@
         "imageSrc": "skills/node.png"
     },
     {
+        "title": "JavaScript",
+        "imageSrc": "skills/javascript.png"
+    },
+    {
+        "title": "Python",
+        "imageSrc": "skills/python.png"
+    },
+    {
+        "title": "C#",
+        "imageSrc": "skills/csharp.png"
+    },
+    {
+        "title": "AWS S3",
+        "imageSrc": "skills/s3.png"
+    },
+    {
+        "title": "Git",
+        "imageSrc": "skills/git.png"
+    },
+    {
+        "title": "SQL",
+        "imageSrc": "skills/sql.png"
+    },
+    {
         "title": "MongoDB",
         "imageSrc": "skills/mongodb.png"
+    },
+    {
+        "title": "Unity",
+        "imageSrc": "skills/unity.png"
     }
 ]
