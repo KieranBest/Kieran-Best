@@ -5,7 +5,7 @@ import { getImageUrl } from "../../utils";
 
 export const Hero = () => {
     return (
-        <section className={styles.container}>
+        <section className={styles.container} id="hero">
             <div className={styles.content}>
                 <h1 className={styles.title}>Hello there,</h1>
                 <h1 className={styles.title}>my name is Kieran</h1>
