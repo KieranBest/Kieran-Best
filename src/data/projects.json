@@ -1,10 +1,10 @@
 [
     {
-        "title": "This website",
+        "title": "Websites",
         "imageSrc": "projects/project.png",
-        "description": "This is a project made to learn how to build a website using React.",
+        "description": "Creating websites for clients using HTML, Tailwind CSS, React and JavaScript libraries.",
         "skills": ["React", "HTML", "CSS"],
-        "source": "https://github.com/KieranBest/Website-Demo"
+        "source": "https://www.bestwebdev.co.uk"
     },
     {
         "title": "Tircle",
