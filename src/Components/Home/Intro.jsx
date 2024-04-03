@@ -1,72 +1,92 @@
-import React from "react";
+import React, { useEffect, useState } from 'react';
 import Typewriter from "typewriter-effect";
 
 export const Intro = () => {
     return (
-        <div className="text-6xl">
-            <Typewriter
-                options={{
-                    autoStart: true,
-                    delay: 150,
-                    changeDeleteSpeed: 150,
-                }}
-                onInit={(typewriter) => {
-                    typewriter
-                        .typeString("Hello There.")
-                        .pauseFor(800)
-                        .deleteAll()
-                        .typeString("My Name is Kieran Best.")
-                        .pauseFor(800)
-                        .deleteAll()
-                        .typeString("Welcome To My Website.")
-                        .pauseFor(800)
-                        .deleteAll()
-                        .typeString("I Love All Things Code.")
-                        .pauseFor(800)
-                        .deleteAll()
-                        .typeString("A Few Things About Me.")
-                        .pauseFor(800)
-                        .deleteAll()
-                        .typeString("I Am A Software Developer.")
-                        .pauseFor(800)
-                        .deleteChars(19)
-                        .typeString("Gamer.")
-                        .pauseFor(800)
-                        .deleteChars(6)
-                        .typeString("Dog Owner.")
-                        .pauseFor(800)
-                        .deleteChars(10)
-                        .typeString("Music Lover.")
-                        .pauseFor(800)
-                        .deleteChars(12)
-                        .typeString("Husband.")
-                        .pauseFor(800)
-                        .deleteChars(8)
-                        .typeString("Father.")
-                        .pauseFor(800)
-                        .deleteChars(8)
-                        .typeString("lways Busy.")
-                        .pauseFor(100)
-                        .deleteChars(5)
-                        .typeString("Learning New Skills.")
-                        .pauseFor(800)
-                        .deleteAll()
-                        .typeString("But Enough About Me.")
-                        .pauseFor(800)
-                        .deleteAll()
-                        .typeString("Go Ahead.")
-                        .pauseFor(400)
-                        .deleteAll()
-                        .typeString("Take A Look Around.")
-                        .pauseFor(800)
-                        .deleteAll()
-                        .typeString("Contact Me If You Have Any Questions.")
-                        .pauseFor(800)
-                        .deleteAll()
-                        .typeString(":)")
-                        .start();
-                }}
-            />
-        </div>
+        <section className="p-10">
+            <div className='z-0 absolute top-5 left-5'>
+                <img src="/../public/favicon.ico" alt="logo"/>
+            </div>
+            <div className="z-40 text-6xl">
+                <Typewriter
+                    options={{
+                        autoStart: true,
+                        changeDeleteSpeed: 150,
+                    }}
+                    onInit={(typewriter) => {
+                        typewriter
+                            .start()
+                            .pauseFor(100)
+                            .typeString("Hello There.")
+                            .pauseFor(800)
+                            .deleteChars(12)
+                            .pauseFor(10)
+                            .typeString("My Name is Kieran Best.")
+                            .pauseFor(800)
+                            .deleteChars(23)
+                            .pauseFor(10)
+                            .typeString("Welcome To My Website.")
+                            .pauseFor(800)
+                            .deleteChars(22)
+                            .pauseFor(10)
+                            .typeString("I Love All Things Code.")
+                            .pauseFor(800)
+                            .deleteChars(23)
+                            .pauseFor(10)
+                            .typeString("A Few Things About Me.")
+                            .pauseFor(800)
+                            .deleteChars(22)
+                            .pauseFor(10)
+                            .typeString("I Am A Software Developer.")
+                            .pauseFor(800)
+                            .deleteChars(19)
+                            .pauseFor(10)
+                            .typeString("Gamer.")
+                            .pauseFor(800)
+                            .deleteChars(6)
+                            .pauseFor(10)
+                            .typeString("Dog Owner.")
+                            .pauseFor(800)
+                            .deleteChars(10)
+                            .pauseFor(10)
+                            .typeString("Music Lover.")
+                            .pauseFor(800)
+                            .deleteChars(12)
+                            .pauseFor(10)
+                            .typeString("Husband.")
+                            .pauseFor(800)
+                            .deleteChars(8)
+                            .pauseFor(10)
+                            .typeString("Father.")
+                            .pauseFor(800)
+                            .deleteChars(8)
+                            .pauseFor(10)
+                            .typeString("lways Busy.")
+                            .pauseFor(1)
+                            .deleteChars(5)
+                            .pauseFor(10)
+                            .typeString("Learning New Skills.")
+                            .pauseFor(800)
+                            .deleteChars(34)
+                            .pauseFor(10)
+                            .typeString("But Enough About That.")
+                            .pauseFor(800)
+                            .deleteChars(22)
+                            .pauseFor(10)
+                            .typeString("Go Ahead.")
+                            .pauseFor(200)
+                            .deleteChars(9)
+                            .pauseFor(10)
+                            .typeString("Take A Look Around.")
+                            .pauseFor(800)
+                            .deleteChars(19)
+                            .pauseFor(10)
+                            .typeString(":)")
+                            .pauseFor(200)
+                            .deleteChars(2)
+                    }}
+                />
+            </div>
+        </section>
     )
 }
