@@ -40,7 +40,7 @@ export const Header = () => {
     }
 
     return (
-        <Disclosure as="nav" className="bg-black sticky top-0 z-100">
+        <Disclosure as="nav" className="bg-black sticky top-0 z-10">
             {({ open }) => (
                 <>
                 <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -60,7 +60,7 @@ export const Header = () => {
                         {/* Normal */}
                         <div className="flex items-center justify-center w-full ">
                             <div className="hidden sm:flex">
-                                <div className="flex space-x-4">
+                                <div className="flex space-x-20">
                                     {navigation.map((item) => (
                                     <a
                                         key={item.name}

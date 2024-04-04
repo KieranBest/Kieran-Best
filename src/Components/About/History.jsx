@@ -1,6 +1,7 @@
 import React from 'react';
 import Typewriter from "typewriter-effect";
 
+import { getImageUrl } from "./../../utils";
 import history from "../../data/history.json";
 
 export const History = () => {
@@ -25,8 +26,7 @@ export const History = () => {
                 <div className="space-y-6 border-l-2 border-white ">
                     {history.map(item => (
                         <div className="relative w-full" key={item.id}>
-                            <div className="rounded-full bg-white border-white border-4 absolute -ml-3.5 h-7 w-7 top-1/4">
-                            </div>
+                            <img src={getImageUrl(item.image)} alt={item.title} className="rounded-full border-white border-2 absolute -ml-5 h-10 w-10 top-1/4" />
                             <div className="ml-6 p-3 border-l-2 border-b-2 border-white">
                                 <h4 className="font-bold text-white justify-start">{item.title} - {item.company}</h4>
                                 <p className="mt-1 block text-xs font-semibold text-white">{item.date}</p>

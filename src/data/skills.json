@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "name": "React",
+        "image": "skills/react.jpg"
+    },
+    {
+        "id": 2,
+        "name": "HTML",
+        "image": "skills/html.png"
+    }
+]

@@ -1,6 +1,7 @@
 import React from 'react';
 import Typewriter from "typewriter-effect";
 
+import { getImageUrl } from "./../../utils";
 import portfolio from "../../data/portfolio.json";
 
 export const Portfolio = () => {
@@ -22,16 +23,25 @@ export const Portfolio = () => {
                         }
                     />
                 </div>
-                <div className="space-y-6 border-l-2 border-white ">
+                <div className="text-white relative grid auto-cols grid-flow-col gap-4 overflow-x-auto">
                     {portfolio.map(item => (
-                        <div className="relative w-full" key={item.id}>
-                            <div className="rounded-full bg-white border-white border-4 absolute -ml-3.5 h-7 w-7 top-1/4">
+                        <div className="group col-span-1 cursor-pointer" key={item.id}>
+                        <a href={item.source} target="_blank">
+                            <div className="max-w-sm rounded overflow-hidden shadow-lg border-2 border-white bg-black">
+                                <img className="w-full" src={getImageUrl(item.image)} alt="Sunset in the mountains" />
+                                <div className="px-6 py-4">
+                                    <div className="font-bold text-xl mb-2">{item.title}</div>
+                                    <p className="text-base">
+                                        {item.description}
+                                    </p>
+                                </div>
+                                <div className="px-6 pt-4 pb-2">
+                                    <span className="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">HTML</span>
+                                    <span className="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">JavaScript</span>
+                                    <span className="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Jest</span>
+                                </div>
                             </div>
-                            <div className="ml-6 p-3 border-l-2 border-b-2 border-white">
-                                <h4 className="font-bold text-white">{item.title} - {item.company}</h4>
-                                <p className="mt-2 max-w-screen-sm text-sm text-white">{item.description}</p>
-                                <p className="mt-1 block text-xs font-semibold text-white">{item.date}</p>
-                            </div>
+                        </a>
                         </div>
                     ))}
                 </div>
