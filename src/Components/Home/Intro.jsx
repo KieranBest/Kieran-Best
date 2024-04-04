@@ -4,10 +4,10 @@ import Typewriter from "typewriter-effect";
 export const Intro = () => {
     return (
         <section className="p-10">
-            <div className='z-0 absolute top-5 left-5'>
-                <img src="/../public/favicon.ico" alt="logo"/>
+            <div className='z-0 flex justify-center items-center'>
+                <img src="/../public/favicon.ico" alt="logo" className='z-0'/>
             </div>
-            <div className="z-40 text-6xl">
+            <div className="z-40 flex h-[20vh] justify-center items-center text-center text-xl sm:text-2xl md:text-4xl lg:text-6xl">
                 <Typewriter
                     options={{
                         autoStart: true,

@@ -28,9 +28,9 @@ export const History = () => {
                             <div className="rounded-full bg-white border-white border-4 absolute z-10 -ml-3.5 h-7 w-7 top-1/4">
                             </div>
                             <div className="ml-6 p-3 border-l-2 border-b-2 border-solid border-white">
-                                <h4 className="font-bold text-white">{item.title} - {item.company}</h4>
-                                <p className="mt-2 max-w-screen-sm text-sm text-white">{item.description}</p>
+                                <h4 className="font-bold text-white justify-start">{item.title} - {item.company}</h4>
                                 <p className="mt-1 block text-xs font-semibold text-white">{item.date}</p>
+                                <p className="mt-2 max-w-screen-sm text-sm text-white">{item.description}</p>
                             </div>
                         </div>
                     ))}
