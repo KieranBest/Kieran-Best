@@ -1,11 +1,15 @@
 import React from "react";
+import { MDBFooter } from 'mdb-react-ui-kit';
 
 export const Footer = () => {
     return (
-        <footer className="font-poppins">
-            <nav className="flex w-full bg-black p-8 z-50">
-                <a className="text-white hover:text-slate-500 hover:underline font-medium text-xl" href="/">Best Web Dev</a>
-            </nav>
-        </footer>
+        <MDBFooter className="bg-black" color='white'>
+            <div className='flex items-center justify-center text-center h-[8vh]'>
+            &copy; {new Date().getFullYear()} Copyright:{' '}
+                <a className='text-dark' href='www.bestwebdev.co.uk'>
+                    bestwebdev.co.uk
+                </a>
+            </div>
+        </MDBFooter>
     );
 }

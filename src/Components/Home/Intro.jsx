@@ -5,7 +5,7 @@ export const Intro = () => {
     return (
         <section className="p-10">
             <div className='z-0 flex justify-center items-center'>
-                <img src="/../public/favicon.ico" alt="logo" className='z-0'/>
+                <img src="/../../favicon.ico" alt="logo" className='z-0'/>
             </div>
             <div className="z-40 flex h-[20vh] justify-center items-center text-center text-xl sm:text-2xl md:text-4xl lg:text-6xl">
                 <Typewriter

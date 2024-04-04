@@ -25,9 +25,9 @@ export const Portfolio = () => {
                 <div className="space-y-6 border-l-2 border-white ">
                     {portfolio.map(item => (
                         <div className="relative w-full" key={item.id}>
-                            <div className="rounded-full bg-white border-white border-4 absolute z-10 -ml-3.5 h-7 w-7 top-1/4">
+                            <div className="rounded-full bg-white border-white border-4 absolute -ml-3.5 h-7 w-7 top-1/4">
                             </div>
-                            <div className="ml-6 p-3 border-l-2 border-b-2 border-solid border-white">
+                            <div className="ml-6 p-3 border-l-2 border-b-2 border-white">
                                 <h4 className="font-bold text-white">{item.title} - {item.company}</h4>
                                 <p className="mt-2 max-w-screen-sm text-sm text-white">{item.description}</p>
                                 <p className="mt-1 block text-xs font-semibold text-white">{item.date}</p>
