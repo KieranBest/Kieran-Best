@@ -4,9 +4,9 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { useLocation } from 'react-router-dom';
 
 const navigation = [
-    { name: 'Dashboard', href: '/', current: false },
+    { name: 'Home', href: '/', current: false },
     { name: 'About', href: '/about', current: false },
-    { name: 'Projects', href: '/projects', current: false },
+    { name: 'Contact', href: '/contact', current: false },
 ]
 
 function classNames(...classes) {
