@@ -1,51 +1,51 @@
 [
     {
-        "id": 1,
+        "id": 0,
         "name": "React",
         "image": "skills/react.jpg"
     },
     {
-        "id": 2,
+        "id": 1,
         "name": "HTML",
         "image": "skills/html.png"
     },
     {
-        "id": 3,
+        "id": 2,
         "name": "CSS",
         "image": "skills/css.jpg"
     },
     {
-        "id": 4,
+        "id": 3,
         "name": "JavaScript",
         "image": "skills/js-logo.png"
     },
     {
-        "id": 5,
+        "id": 4,
         "name": "Tailwind CSS",
         "image": "skills/Tailwind.png"
     },
     {
-        "id": 6,
+        "id": 5,
         "name": "Python",
         "image": "skills/python.jpg"
     },
     {
-        "id": 7,
+        "id": 6,
         "name": "C#",
         "image": "skills/csharp.jpg"
     },
     {
-        "id": 8,
+        "id": 7,
         "name": "Unity",
         "image": "skills/unity.png"
     },
     {
-        "id": 9,
+        "id": 8,
         "name": "SQL",
         "image": "skills/sql.png"
     },
     {
-        "id": 10,
+        "id": 9,
         "name": "MongoDB",
         "image": "skills/mongo.png"
     }
