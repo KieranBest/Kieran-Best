@@ -8,5 +8,45 @@
         "id": 2,
         "name": "HTML",
         "image": "skills/html.png"
+    },
+    {
+        "id": 3,
+        "name": "CSS",
+        "image": "skills/css.jpg"
+    },
+    {
+        "id": 4,
+        "name": "JavaScript",
+        "image": "skills/js-logo.png"
+    },
+    {
+        "id": 5,
+        "name": "Tailwind CSS",
+        "image": "skills/Tailwind.png"
+    },
+    {
+        "id": 6,
+        "name": "Python",
+        "image": "skills/python.jpg"
+    },
+    {
+        "id": 7,
+        "name": "C#",
+        "image": "skills/csharp.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Unity",
+        "image": "skills/unity.png"
+    },
+    {
+        "id": 9,
+        "name": "SQL",
+        "image": "skills/sql.png"
+    },
+    {
+        "id": 10,
+        "name": "MongoDB",
+        "image": "skills/mongo.png"
     }
 ]

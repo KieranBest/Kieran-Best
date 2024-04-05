@@ -66,7 +66,7 @@ export const Header = () => {
                                         key={item.name}
                                         href={item.href}
                                         className={classNames(
-                                        item.current ? 'bg-red-900 text-white' : 'text-gray-300 hover:bg-slate-700 hover:text-white',
+                                        item.current ? 'bg-red-900 text-white' : 'text-gray-300 hover:bg-slate-700 hover:text-white transition duration-500 hover:scale-125',
                                         'rounded-md px-3 py-2 text-lg font-medium'
                                         )}
                                         aria-current={item.current ? 'page' : undefined}

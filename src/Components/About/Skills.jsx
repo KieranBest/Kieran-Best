@@ -1,37 +1,28 @@
-import react from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 
 import { getImageUrl } from '../../utils';
 import skills from "../../data/skills.json";
 
 export const Skills = () => {
-    const slideWidth = 200 / skills.length;
-    const skillCopy = JSON.parse(JSON.stringify(skills));
-    const skillDuplicate = [...skillCopy, ...skills];
     return (
-        <div className="relative w-full overflow-hidden">
-            {/* Wrapping div for seamless looping */}
-            <motion.div
-                className="flex"
-                animate={{
-                    x: ['-200%', '0%'],
-                    transition: {
-                        ease: 'linear',
-                        duration: 40,
-                        repeat: Infinity,
-                    }
-                }}
-            >
-                {/* Render duplicated slides */}
-                {skillDuplicate.map((skill, index) => (
-                    <div key={index} className="flex-shrink-0" style={{ width: `${slideWidth}%` }}>
-                        <img
-                            src={getImageUrl(skill.image)}
-                            alt={skill.name}
-                            className="h-8 w-8 sm:h-16 sm:w-16 object-contain opacity-35"
-                        />
-                    </div>
-                ))}
-            </motion.div>
-        </div>    );
+        <section>
+            <div className="flex space-x-16">
+                <div className="flex space-x-16 animate-loop-scroll">
+                    {skills.map((skill) => (
+                        <div key={skill.id} className="bg-tranparent rounded-full opacity-75 flex items-center justify-center">
+                            <img loading="lazy" src={getImageUrl(skill.image)} alt={skill.name} className="max-w-20"/>
+                        </div>
+                    ))}
+                </div>
+                <div className="flex space-x-16 animate-loop-scroll" aria-hidden="true">
+                    {skills.map((skill) => (
+                        <div key={skill.id} className="bg-transparent rounded-full opacity-75 flex items-center justify-center">
+                            <img loading="lazy" src={getImageUrl(skill.image)} alt={skill.name} className="max-w-20" />
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </section>
+    );
 };
