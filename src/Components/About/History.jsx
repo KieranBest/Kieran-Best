@@ -8,21 +8,6 @@ export const History = () => {
     return (
         <section className="p-10">
             <div className="flex h-screen items-center justify-center flex-col flex-1">
-                <div className="text-4xl h-[10vh] flex text-center justify-center">
-                    <Typewriter
-                        options={{
-                            autoStart: true,
-                            delay: 150,
-                            changeDeleteSpeed: 150,
-                        }}
-                        onInit={(typewriter) => {
-                            typewriter
-                                .typeString("History")
-                                .start()
-                        }
-                        }
-                    />
-                </div>
                 <div className="space-y-6 border-l-2 border-white ">
                     {history.map(item => (
                         <div className="relative w-full" key={item.id}>

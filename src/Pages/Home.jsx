@@ -1,8 +1,6 @@
 import React from "react";
 
-import { getImageUrl } from "../utils";
 import { Intro } from "../Components/Home/Intro";
-import { History } from "../Components/About/History";
 
 export const Home = () => {
     return (
