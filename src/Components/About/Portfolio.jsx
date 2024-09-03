@@ -1,20 +1,27 @@
-import React from 'react';
-
-import { getImageUrl } from "./../../utils";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import portfolio from "../../data/portfolio.json";
-import Carousel from "./carousel.component";
+import { getImageUrl } from '../../utils';
+
+const images = [
+  "https://res.cloudinary.com/demo/image/upload/v1652345767/docs/demo_image2.jpg",
+  "https://res.cloudinary.com/demo/image/upload/v1652366604/docs/demo_image5.jpg",
+  "https://res.cloudinary.com/demo/image/upload/v1652345874/docs/demo_image1.jpg",
+];
 
 export const Portfolio = () => {
-    let slides = [
-        "https://i.pinimg.com/originals/51/82/ac/5182ac536727d576c78a9320ac62de30.jpg",
-        "https://wallpapercave.com/wp/wp3386769.jpg",
-        "https://wallpaperaccess.com/full/809523.jpg",
-        "https://getwallpapers.com/wallpaper/full/5/c/0/606489.jpg",
-    ];
     return (
         <section>
-            <div className="w-[60%] m-auto pt-11">
-            <Carousel slides={portfolio} />
+            <div className="box">
+            <Carousel useKeyboardArrows={true}>
+                {portfolio.map((s) => (
+                <div className="w-full h-[80%]  rounded-lg" key={s.id} >
+                    <img alt="sample_file" src={getImageUrl(s.image)}
+                        className="px-6"
+                    />
+                </div>
+                ))}
+            </Carousel>
             </div>
         </section>
     )

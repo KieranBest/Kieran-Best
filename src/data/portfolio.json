@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "title": "John Doe",
-        "description": "dafgdfg",
+        "title": "Final Year University Project",
+        "description": "A educational tool built using JavaScript using aq Midi keyboard for input. The tool is designed to help users learn to play the piano by providing feedback on their performance.",
         "source" : "https://github.com/KieranBest/Final-Year-Project",
         "image": "portfolio/piano.png"
     },
@@ -11,34 +11,27 @@
         "title": "John Doe",
         "description": "dafgdfg",
         "source" : "https://github.com/KieranBest/Final-Year-Project",
-        "image": "portfolio/piano.png"
+        "image": "portfolio/2.jpg"
     },
     {
         "id": 3,
         "title": "John Doe",
         "description": "dafgdfg",
         "source" : "https://github.com/KieranBest/Final-Year-Project",
-        "image": "portfolio/piano.png"
+        "image": "portfolio/3.jpg"
     },
     {
         "id": 4,
         "title": "John Doe",
         "description": "dafgdfg",
         "source" : "https://github.com/KieranBest/Final-Year-Project",
-        "image": "portfolio/piano.png"
+        "image": "portfolio/4.jpg"
     },
     {
         "id": 5,
         "title": "John Doe",
         "description": "dafgdfg",
         "source" : "https://github.com/KieranBest/Final-Year-Project",
-        "image": "portfolio/piano.png"
-    },
-    {
-        "id": 6,
-        "title": "John Doe",
-        "description": "dafgdfg",
-        "source" : "https://github.com/KieranBest/Final-Year-Project",
-        "image": "portfolio/piano.png"
+        "image": "portfolio/5.jpg"
     }
 ]

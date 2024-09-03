@@ -22,7 +22,18 @@ export default function Carousel({ slides }) {
             >
                 {slides.map((s) => {
                     return (
-                        <><img src={getImageUrl(s.image)} /><h1>{s.title}</h1></>
+                        <div>
+                            <img src={getImageUrl(s.image)} 
+                                className="w-full h-full absolute  rounded-lg px-6" />
+                            <div className="text-wrap flex sm:w-[50%] px-6 opacity-90">
+                                <div className=" m-auto text-center">
+                                    <div className="pb-5 text-black">
+                                        <h1>{s.title}</h1>
+                                        <p>{s.description}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     );
                 })}
             </div>
