@@ -4,7 +4,7 @@
         "title": "Junior Product Developer",
         "company": "BrokerTech Ltd",
         "date": "June 2023 - Present",
-        "description": "Responding to clients queries regarding products and reports. Implementing required fixes to bugs or new changes to logic through the use of Python. Using Javascript, HTML, CSS, XML and Velocity.js to create/edit dynamic document generation as well as AWS Lambda for static document generation. Creating/editing regular reports to coincide with customer needs using SQL and python.",
+        "description": "Responding to clients queries regarding products and reports. Implementing required fixes to bugs or new changes to logic through the use of Python. Using Javascript, HTML, CSS, XML and Velocity.js to create/edit dynamic document generation as well as AWS S3 Buckets for static document generation. Creating/editing regular reports to coincide with customer needs using SQL and python.",
         "image": "history/brokertech.png"
     },
     {

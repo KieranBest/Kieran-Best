@@ -6,7 +6,10 @@ import history from "../../data/history.json";
 
 export const History = () => {
     return (
-        <section className="p-10">
+        <section className="p-10 mt-36 sm:mt-2">
+            <div>
+                <h2 className="text-3xl font-bold text-center">History</h2>
+            </div>
             <div className="flex h-screen items-center justify-center flex-col flex-1">
                 <div className="space-y-6 border-l-2 border-white ">
                     {history.map(item => (

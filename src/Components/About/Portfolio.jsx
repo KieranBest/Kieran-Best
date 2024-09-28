@@ -3,25 +3,33 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import portfolio from "../../data/portfolio.json";
 import { getImageUrl } from '../../utils';
 
-const images = [
-  "https://res.cloudinary.com/demo/image/upload/v1652345767/docs/demo_image2.jpg",
-  "https://res.cloudinary.com/demo/image/upload/v1652366604/docs/demo_image5.jpg",
-  "https://res.cloudinary.com/demo/image/upload/v1652345874/docs/demo_image1.jpg",
-];
-
 export const Portfolio = () => {
     return (
         <section>
-            <div className="box">
-            <Carousel useKeyboardArrows={true}>
-                {portfolio.map((s) => (
-                <div className="w-full h-[80%]  rounded-lg" key={s.id} >
-                    <img alt="sample_file" src={getImageUrl(s.image)}
-                        className="px-6"
-                    />
+            <div>
+                <h2 className="text-3xl font-bold text-center">Portfolio</h2>
+            </div>
+            <div className="m-auto pt-11 w-full sm:w-3/4 lg:w-1/2">
+                <div>
+                    <Carousel 
+                        useKeyboardArrows={true} 
+                        infiniteLoop={true} 
+                        dynamicHeight={true}
+                        showThumbs={false}
+                        showStatus={false}
+                    >
+                        {portfolio.map((s) => (
+                            <a href={s.source} target="_blank" key={s.id}>
+                                <div>
+                                    <p className="legend text-base mb-40">{s.title} - {s.description}</p>
+                                    <img alt={s.title} src={getImageUrl(s.image)}
+                                        className="p-8"
+                                    />
+                                </div>
+                            </a>
+                        ))}
+                    </Carousel>
                 </div>
-                ))}
-            </Carousel>
             </div>
         </section>
     )
