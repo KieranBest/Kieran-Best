@@ -5,6 +5,7 @@ import { useLocation } from 'react-router-dom';
 
 const navigation = [
     { name: 'Home', href: '/', current: false },
+    { name: 'Projects', href: '/projects', current: false },
     { name: 'About', href: '/about', current: false },
     { name: 'Contact', href: '/contact', current: false },
 ]
@@ -24,17 +25,27 @@ export const Header = () => {
             navigation[0].current = true;
             navigation[1].current = false;
             navigation[2].current = false;
-            break;
-        case '/about':
-            navigation[0].current = false;
-            navigation[1].current = true;
-            navigation[2].current = false;
+            navigation[3].current = false;
             break;
         case '/projects':
             navigation[0].current = false;
+            navigation[1].current = true;
+            navigation[2].current = false;
+            navigation[3].current = false;
+            break;
+        case '/about':
+            navigation[0].current = false;
             navigation[1].current = false;
             navigation[2].current = true;
+            navigation[3].current = false;
             break;
+        case '/contact':
+            navigation[0].current = false;
+            navigation[1].current = false;
+            navigation[2].current = false;
+            navigation[3].current = true;
+            break;
+        
         default:
             break;
     }

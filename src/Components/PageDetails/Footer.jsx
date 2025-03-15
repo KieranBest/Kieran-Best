@@ -3,11 +3,11 @@ import { MDBFooter } from 'mdb-react-ui-kit';
 
 export const Footer = () => {
     return (
-        <MDBFooter className="bg-black" color='white'>
-            <div className='flex items-center justify-center text-center h-[8vh]'>
-            &copy; {new Date().getFullYear()}&nbsp;&nbsp;&nbsp;Copyright&nbsp;&nbsp;&nbsp; {' '}
+        <MDBFooter className="bg-black text-white">
+            <div className='flex items-center justify-center h-[6vh]'>
+                &copy; {new Date().getFullYear()}&nbsp;Copyright&nbsp;{' '}
                 <a href="https://www.bestwebdev.co.uk" target="_blank">
-                    bestwebdev.co.uk
+                    Kieran Best
                 </a>
             </div>
         </MDBFooter>

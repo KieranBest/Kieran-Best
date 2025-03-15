@@ -4,34 +4,27 @@
         "title": "Final Year University Project",
         "description": "A educational tool built using JavaScript using a Midi keyboard for input. The tool is designed to help users learn to play the piano by providing feedback on their performance.",
         "source" : "https://github.com/KieranBest/Final-Year-Project",
-        "image": "portfolio/piano.png"
+        "image": "assets/portfolio/piano.png"
     },
     {
         "id": 2,
-        "title": "John Doe",
-        "description": "dafgdfg",
-        "source" : "https://github.com/KieranBest/Final-Year-Project",
-        "image": "portfolio/2.jpg"
+        "title": "Ashton Phillips Portfolio",
+        "description": "A portfolio website for model/actor Ashton Phillips. The website contains a gallery of images, videos and a contact form.",
+        "source": "https://www.atdrphillips.co.uk/",
+        "image": "assets/projects/37.jpg"
     },
     {
         "id": 3,
-        "title": "John Doe",
-        "description": "dafgdfg",
-        "source" : "https://github.com/KieranBest/Final-Year-Project",
-        "image": "portfolio/3.jpg"
+        "title": "Restaurant 1",
+        "description": "Restaurant 1 description",
+        "source": "/restaurant1",
+        "image": "assets/projects/restaurant1.png"
     },
     {
         "id": 4,
-        "title": "John Doe",
-        "description": "dafgdfg",
-        "source" : "https://github.com/KieranBest/Final-Year-Project",
-        "image": "portfolio/4.jpg"
-    },
-    {
-        "id": 5,
-        "title": "John Doe",
-        "description": "dafgdfg",
-        "source" : "https://github.com/KieranBest/Final-Year-Project",
-        "image": "portfolio/5.jpg"
+        "title": "Restaurant 1",
+        "description": "Restaurant 1 description",
+        "source": "/restaurant1",
+        "image": "assets/projects/37.jpg"
     }
 ]

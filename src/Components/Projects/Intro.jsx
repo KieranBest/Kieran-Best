@@ -5,7 +5,7 @@ export const Intro = () => {
     return (
         <section>
             <div className="flex h-[50vh] items-center justify-center flex-col flex-1">
-                <div className="text-4xl flex text-center justify-center">
+                <div className="text-4xl flex text-center justify-center mb-[10vh]">
                     <Typewriter
                         options={{
                             autoStart: true,
@@ -14,7 +14,7 @@ export const Intro = () => {
                         }}
                         onInit={(typewriter) => {
                             typewriter
-                                .typeString("About Me")
+                                .typeString("Projects")
                                 .start()
                         }
                         }

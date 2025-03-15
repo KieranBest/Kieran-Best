@@ -1,10 +1,24 @@
-
+import Typewriter from "typewriter-effect";
 
 export const Intro = () => {
     return (
-        <div className="flex flex-col items-center justify-center">
-            <h1 className="text-4xl font-bold">Contact</h1>
-            <p className="text-center text-lg mt-4">Feel free to contact me if you have any questions or if you just want to say hi!</p>
-        </div>
+        <section>
+            <div className="flex h-[50vh] flex-col flex-1 items-center justify-center">
+                <div className="text-4xl h-[10vh] flex text-center justify-center">
+                    <Typewriter
+                        options={{
+                            autoStart: true,
+                            delay: 150,
+                            changeDeleteSpeed: 150,
+                        }}
+                        onInit={(typewriter) => {
+                            typewriter
+                                .typeString("Contact Me")
+                                .start()
+                        }}
+                    />
+                </div>
+            </div>
+        </section>
     )
 }

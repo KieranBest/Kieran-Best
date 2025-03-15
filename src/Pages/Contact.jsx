@@ -1,11 +1,30 @@
-import React from 'react';
-
+import React, { useEffect } from "react";
+import BIRDS from 'vanta/src/vanta.birds';
 import { Intro } from "../Components/Contact/Intro";
+import { Form } from "../Components/Contact/Form";
 
 export const Contact = () => {
+    useEffect(() => {
+        BIRDS({
+            el: "#vanta",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            backgroundColor: 0x0,
+            color1: 0x4554f7,
+            color2: 0x858383,
+            birdSize: 0.60,
+            speedLimit: 3.00,
+        })
+    });
     return (
-        <div className="top-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-red-800 via-red-950 to-black text-white flex justify-center items-center flex-col h-[84vh]">
+        <div className="top-0 text-white h-[86vh]" id="vanta">
             <Intro/>
+            <Form/>
         </div>
     )
 }

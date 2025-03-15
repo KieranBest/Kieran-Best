@@ -2,51 +2,56 @@
     {
         "id": 0,
         "name": "React",
-        "image": "skills/react.jpg"
+        "image": "assets/skills/react.jpg"
     },
     {
         "id": 1,
         "name": "HTML",
-        "image": "skills/html.png"
+        "image": "assets/skills/html.png"
     },
     {
         "id": 2,
         "name": "CSS",
-        "image": "skills/css.jpg"
+        "image": "assets/skills/css.jpg"
     },
     {
         "id": 3,
         "name": "JavaScript",
-        "image": "skills/js-logo.png"
+        "image": "assets/skills/js-logo.png"
     },
     {
         "id": 4,
         "name": "Tailwind CSS",
-        "image": "skills/Tailwind.png"
+        "image": "assets/skills/Tailwind.png"
     },
     {
         "id": 5,
         "name": "Python",
-        "image": "skills/python.jpg"
-    },
-    {
-        "id": 6,
-        "name": "C#",
-        "image": "skills/csharp.jpg"
+        "image": "assets/skills/python.jpg"
     },
     {
         "id": 7,
         "name": "Unity",
-        "image": "skills/unity.png"
+        "image": "assets/skills/unity.png"
     },
     {
         "id": 8,
         "name": "SQL",
-        "image": "skills/sql.png"
+        "image": "assets/skills/sql.png"
     },
     {
         "id": 9,
-        "name": "MongoDB",
-        "image": "skills/mongo.png"
+        "name": "XML",
+        "image": "assets/skills/xml.png"
+    },
+    {
+        "id": 10,
+        "name": "PHP",
+        "image": "assets/skills/php.png"
+    },
+    {
+        "id": 11,
+        "name": "Laravel",
+        "image": "assets/skills/laravel.png"
     }
 ]
