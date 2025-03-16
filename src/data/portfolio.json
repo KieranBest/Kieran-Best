@@ -1,30 +1,30 @@
 [
     {
         "id": 1,
-        "title": "Final Year University Project",
-        "description": "A educational tool built using JavaScript using a Midi keyboard for input. The tool is designed to help users learn to play the piano by providing feedback on their performance.",
-        "source" : "https://github.com/KieranBest/Final-Year-Project",
-        "image": "assets/portfolio/piano.png"
+        "title": "Automated Invoice Application",
+        "description": "A Python application that can create invoices using a csv file and github actions to create the invoices on a monthly basis.",
+        "source" : "https://github.com/KieranBest/Invoicest",
+        "image": "assets/portfolio/invoices.png"
     },
     {
         "id": 2,
         "title": "Ashton Phillips Portfolio",
         "description": "A portfolio website for model/actor Ashton Phillips. The website contains a gallery of images, videos and a contact form.",
         "source": "https://www.atdrphillips.co.uk/",
-        "image": "assets/projects/37.jpg"
+        "image": "assets/portfolio/37.jpg"
     },
     {
         "id": 3,
-        "title": "Restaurant 1",
-        "description": "Restaurant 1 description",
+        "title": "Restaurant Allergen Menu",
+        "description": "A demo project for a restaurant that allows users to filter down recipes based on allergens.",
         "source": "/restaurant1",
-        "image": "assets/projects/restaurant1.png"
+        "image": "assets/portfolio/restaurant1.png"
     },
     {
         "id": 4,
-        "title": "Restaurant 1",
-        "description": "Restaurant 1 description",
-        "source": "/restaurant1",
-        "image": "assets/projects/37.jpg"
+        "title": "Final Year University Project",
+        "description": "A educational tool built using JavaScript using a Midi keyboard for input. The tool is designed to help users learn to play the piano by providing feedback on their performance.",
+        "source" : "https://github.com/KieranBest/Final-Year-Project",
+        "image": "assets/portfolio/piano.png"
     }
 ]
