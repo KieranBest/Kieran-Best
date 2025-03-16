@@ -15,8 +15,8 @@ export const Contact = () => {
             scale: 1.00,
             scaleMobile: 1.00,
             backgroundColor: 0x0,
-            color1: 0x4554f7,
-            color2: 0x858383,
+            color1: 0xe66134,
+            color2: 0x3e9cbe,
             birdSize: 0.60,
             speedLimit: 3.00,
         })
