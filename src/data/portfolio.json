@@ -2,8 +2,8 @@
     {
         "id": 1,
         "title": "Automated Invoice Application",
-        "description": "A Python application that can create invoices using a csv file and github actions to create the invoices on a monthly basis.",
-        "source" : "https://github.com/KieranBest/Invoicest",
+        "description": "A Python application that can create pdf invoices using a csv file as data input, python for document layout and generation and github actions to create the invoices on a monthly basis.",
+        "source" : "https://github.com/KieranBest/Invoices",
         "image": "assets/portfolio/invoices.png"
     },
     {
@@ -26,5 +26,13 @@
         "description": "A educational tool built using JavaScript using a Midi keyboard for input. The tool is designed to help users learn to play the piano by providing feedback on their performance.",
         "source" : "https://github.com/KieranBest/Final-Year-Project",
         "image": "assets/portfolio/piano.png"
+    },
+    {
+        "id": 5,
+        "title": "Inventory Tracker",
+        "description": "My first php application built using CakePHP5; a inventory tracker that allows the user to add/edit/delete stock items and levels. Certain criteria applies to items pricing and stock levels.",
+        "source" : "https://github.com/KieranBest/Inventory-Tracker",
+        "image": "assets/portfolio/inventory-management.png"
     }
+
 ]
