@@ -4,35 +4,35 @@
         "title": "Automated Invoice Application",
         "description": "A Python application that can create pdf invoices using a csv file as data input, python for document layout and generation and github actions to create the invoices on a monthly basis.",
         "source" : "https://github.com/KieranBest/Invoices",
-        "image": "src/Assets/Portfolio/invoices.png"
+        "image": "./Assets/Portfolio/invoices.png"
     },
     {
         "id": 2,
         "title": "Ashton Phillips Portfolio",
         "description": "A portfolio website for model/actor Ashton Phillips. The website contains a gallery of images, videos and a contact form.",
         "source": "https://www.atdrphillips.co.uk/",
-        "image": "src/Assets/Portfolio/37.jpg"
+        "image": "./Assets/Portfolio/37.jpg"
     },
     {
         "id": 3,
         "title": "Restaurant Allergen Menu",
         "description": "A demo project for a restaurant that allows users to filter down recipes based on allergens.",
         "source": "/restaurant1",
-        "image": "src/Assets/Portfolio/restaurant1.png"
+        "image": "./Assets/Portfolio/restaurant1.png"
     },
     {
         "id": 4,
         "title": "Final Year University Project",
         "description": "A educational tool built using JavaScript using a Midi keyboard for input. The tool is designed to help users learn to play the piano by providing feedback on their performance.",
         "source" : "https://github.com/KieranBest/Final-Year-Project",
-        "image": "src/Assets/Portfolio/piano.png"
+        "image": "./Assets/Portfolio/piano.png"
     },
     {
         "id": 5,
         "title": "Inventory Tracker",
         "description": "My first php application built using CakePHP5; a inventory tracker that allows the user to add/edit/delete stock items and levels. Certain criteria applies to items pricing and stock levels.",
         "source" : "https://github.com/KieranBest/Inventory-Tracker",
-        "image": "src/Assets/Portfolio/inventory-management.png"
+        "image": "./Assets/Portfolio/inventory-management.png"
     }
 
 ]

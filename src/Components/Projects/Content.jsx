@@ -2,7 +2,6 @@ import React from "react";
 import portfolio from "../../Data/portfolio.json";
 
 export const Content = () => {
-    const imgSrc = "../../../assets/"
     return (
         <section>
             <div className="w-5/6 mx-auto">

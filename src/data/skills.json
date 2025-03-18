@@ -2,113 +2,113 @@
     {
         "id": 0,
         "name": "React",
-        "image": "src/Assets/Skills/react.jpg"
+        "image": "./Assets/Skills/react.jpg"
     },
     {
         "id": 1,
         "name": "HTML",
-        "image": "src/Assets/Skills/Skills/html.png"
+        "image": "./Assets/Skills/html.png"
     },
     {
         "id": 2,
         "name": "CSS",
-        "image": "src/Assets/Skills/css.jpg"
+        "image": "./Assets/Skills/css.jpg"
     },
     {
         "id": 3,
         "name": "JavaScript",
-        "image": "src/Assets/Skills/js-logo.png"
+        "image": "./Assets/Skills/js.png"
     },
     {
         "id": 4,
         "name": "Tailwind CSS",
-        "image": "src/Assets/Skills/Tailwind.png"
+        "image": "./Assets/Skills/tailwind.png"
     },
     {
         "id": 5,
         "name": "Python",
-        "image": "src/Assets/Skills/python.jpg"
+        "image": "./Assets/Skills/python.jpg"
     },
     {
         "id": 7,
         "name": "Unity",
-        "image": "src/Assets/Skills/unity.png"
+        "image": "./Assets/Skills/unity.png"
     },
     {
         "id": 8,
         "name": "SQL",
-        "image": "src/Assets/Skills/sql.png"
+        "image": "./Assets/Skills/sql.png"
     },
     {
         "id": 9,
         "name": "XML",
-        "image": "src/Assets/Skills/xml.png"
+        "image": "./Assets/Skills/xml.png"
     },
     {
         "id": 10,
         "name": "PHP",
-        "image": "src/Assets/Skills/php.png"
+        "image": "./Assets/Skills/php.png"
     },
     {
         "id": 11,
         "name": "Laravel",
-        "image": "src/Assets/Skills/laravel.png"
+        "image": "./Assets/Skills/laravel.png"
     },
     
     
     {
         "id": 12,
         "name": "React",
-        "image": "src/Assets/Skills/react.jpg"
+        "image": "./Assets/Skills/react.jpg"
     },
     {
         "id": 13,
         "name": "HTML",
-        "image": "src/Assets/Skills/html.png"
+        "image": "./Assets/Skills/html.png"
     },
     {
         "id": 14,
         "name": "CSS",
-        "image": "src/Assets/Skills/css.jpg"
+        "image": "./Assets/Skills/css.jpg"
     },
     {
         "id": 15,
         "name": "JavaScript",
-        "image": "src/Assets/Skills/js-logo.png"
+        "image": "./Assets/Skills/js.png"
     },
     {
         "id": 16,
         "name": "Tailwind CSS",
-        "image": "src/Assets/Skills/Tailwind.png"
+        "image": "./Assets/Skills/tailwind.png"
     },
     {
         "id": 17,
         "name": "Python",
-        "image": "src/Assets/Skills/python.jpg"
+        "image": "./Assets/Skills/python.jpg"
     },
     {
         "id": 18,
         "name": "Unity",
-        "image": "src/Assets/Skills/unity.png"
+        "image": "./Assets/Skills/unity.png"
     },
     {
         "id": 19,
         "name": "SQL",
-        "image": "src/Assets/Skills/sql.png"
+        "image": "./Assets/Skills/sql.png"
     },
     {
         "id": 20,
         "name": "XML",
-        "image": "src/Assets/Skills/xml.png"
+        "image": "./Assets/Skills/xml.png"
     },
     {
         "id": 21,
         "name": "PHP",
-        "image": "src/Assets/Skills/php.png"
+        "image": "./Assets/Skills/php.png"
     },
     {
         "id": 22,
         "name": "Laravel",
-        "image": "src/Assets/Skills/laravel.png"
+        "image": "./Assets/Skills/laravel.png"
     }
 ]
