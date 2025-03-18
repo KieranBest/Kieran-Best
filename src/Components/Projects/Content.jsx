@@ -1,5 +1,5 @@
 import React from "react";
-import portfolio from "../../data/portfolio.json";
+import portfolio from "../../Data/portfolio.json";
 
 export const Content = () => {
     const imgSrc = "../../../assets/"

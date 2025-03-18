@@ -123,7 +123,7 @@ export const Form = () => {
                 </form>
                 <div className='items-center justify-center m-8'>
                     <a href="https://www.linkedin.com/in/kieransbest/" target="_blank" >
-                        <img src='assets/contact/linkedin.png' className="bg-white rounded-lg h-10 w-10" />
+                        <img src='src/Assets/Contact/linkedin.png' className="bg-white rounded-lg h-10 w-10" />
                     </a>
                 </div>
             </div>

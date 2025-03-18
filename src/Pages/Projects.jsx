@@ -6,7 +6,7 @@ import { Content } from "../Components/Projects/Content";
 
 export const Projects = () => {
     return (
-        <div className="top-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-red-800 via-red-950 to-black text-white">
+        <div className="top-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-red-800 via-red-950 to-black text-white min-h-[86vh]">
             <Intro/>
             <Skills/>
             <Content/>
