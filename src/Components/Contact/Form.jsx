@@ -61,13 +61,13 @@ export const Form = () => {
 
     return (
         <section>
-            <div className="h-[22vh] relative flex flex-col items-center justify-center my-8 text-white">
+            <div className="flex flex-col items-center justify-center text-white">
                 <div>
-                    <p className='text-center font-b text-2xl'>So you'd like to get in touch?</p>
-                    <p className='text-center text-xl m-10'>Just fill in the form below, or contact me on LinkedIn.</p>
+                    <p className='text-center text-2xl'>So you'd like to get in touch?</p>
+                    <p className='text-center text-xl mb-4'>Just fill in the form below, or contact me on LinkedIn.</p>
                 </div>
-                <form ref={form} onSubmit={checkValidation} className=" w-10/12 max-w-xl">
-                    <div className="sm:flex sm:items-center mb-6">
+                <form ref={form} onSubmit={checkValidation} className="w-10/12 max-w-xl">
+                    <div className="sm:flex sm:items-center mb-4">
                         <div className="sm:w-1/4">
                             <label className="block font-bold text-center sm:text-right mb-1 sm:mb-0 pr-4" htmlFor="name">
                                 Name
@@ -82,7 +82,7 @@ export const Form = () => {
                             />
                         </div>
                     </div>
-                    <div className="sm:flex sm:items-center mb-6">
+                    <div className="sm:flex sm:items-center mb-4">
                         <div className="sm:w-1/4">
                             <label className="block font-bold text-center sm:text-right mb-1 sm:mb-0 pr-4" htmlFor="email">
                                 Email
@@ -97,7 +97,7 @@ export const Form = () => {
                             />
                         </div>
                     </div>
-                    <div className="sm:flex sm:items-center mb-6">
+                    <div className="sm:flex sm:items-center mb-4">
                         <div className="sm:w-1/4">
                             <label className="block font-bold text-center sm:text-right mb-1 sm:mb-0 pr-4" htmlFor="message">
                                 Message
@@ -121,9 +121,11 @@ export const Form = () => {
                         </div>
                     </div>
                 </form>
-                <a href="https://www.linkedin.com/in/kieransbest/" target="_blank" >
-                    <img src='assets/contact/linkedin.png' className='p-20 hover:cursor-pointer w-[12vh]  rounded-lg'></img>
-                </a>
+                <div className='items-center justify-center m-8'>
+                    <a href="https://www.linkedin.com/in/kieransbest/" target="_blank" >
+                        <img src='assets/contact/linkedin.png' className="bg-white rounded-lg h-10 w-10" />
+                    </a>
+                </div>
             </div>
         </section>
     );

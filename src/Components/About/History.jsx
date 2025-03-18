@@ -8,7 +8,7 @@ export const History = () => {
             <div>
                 <h2 className="text-3xl font-bold text-center pb-10">History</h2>
             </div>
-            <div className="flex items-center justify-center flex-col flex-1">
+            <div className="flex items-center justify-center flex-col flex-1 pb-20">
                 <div className="space-y-6 border-l-2 border-white ">
                     {history.map(item => (
                         <div className="relative w-full" key={item.id}>

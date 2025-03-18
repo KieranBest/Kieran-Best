@@ -53,5 +53,62 @@
         "id": 11,
         "name": "Laravel",
         "image": "assets/skills/laravel.png"
+    },
+    
+    
+    {
+        "id": 12,
+        "name": "React",
+        "image": "assets/skills/react.jpg"
+    },
+    {
+        "id": 13,
+        "name": "HTML",
+        "image": "assets/skills/html.png"
+    },
+    {
+        "id": 14,
+        "name": "CSS",
+        "image": "assets/skills/css.jpg"
+    },
+    {
+        "id": 15,
+        "name": "JavaScript",
+        "image": "assets/skills/js-logo.png"
+    },
+    {
+        "id": 16,
+        "name": "Tailwind CSS",
+        "image": "assets/skills/Tailwind.png"
+    },
+    {
+        "id": 17,
+        "name": "Python",
+        "image": "assets/skills/python.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Unity",
+        "image": "assets/skills/unity.png"
+    },
+    {
+        "id": 19,
+        "name": "SQL",
+        "image": "assets/skills/sql.png"
+    },
+    {
+        "id": 20,
+        "name": "XML",
+        "image": "assets/skills/xml.png"
+    },
+    {
+        "id": 21,
+        "name": "PHP",
+        "image": "assets/skills/php.png"
+    },
+    {
+        "id": 22,
+        "name": "Laravel",
+        "image": "assets/skills/laravel.png"
     }
 ]
