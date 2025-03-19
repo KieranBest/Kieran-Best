@@ -2,113 +2,113 @@
     {
         "id": 0,
         "name": "React",
-        "image": "./Assets/Skills/react.jpg"
+        "image": "https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/Skills/react.jpg"
     },
     {
         "id": 1,
         "name": "HTML",
-        "image": "./Assets/Skills/html.png"
+        "image": "https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/Skills/html.png"
     },
     {
         "id": 2,
         "name": "CSS",
-        "image": "./Assets/Skills/css.jpg"
+        "image": "https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/Skills/css.jpg"
     },
     {
         "id": 3,
         "name": "JavaScript",
-        "image": "./Assets/Skills/js.png"
+        "image": "https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/Skills/js.png"
     },
     {
         "id": 4,
         "name": "Tailwind CSS",
-        "image": "./Assets/Skills/tailwind.png"
+        "image": "https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/Skills/tailwind.png"
     },
     {
         "id": 5,
         "name": "Python",
-        "image": "./Assets/Skills/python.jpg"
+        "image": "https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/Skills/python.jpg"
     },
     {
         "id": 7,
         "name": "Unity",
-        "image": "./Assets/Skills/unity.png"
+        "image": "https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/Skills/unity.png"
     },
     {
         "id": 8,
         "name": "SQL",
-        "image": "./Assets/Skills/sql.png"
+        "image": "https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/Skills/sql.png"
     },
     {
         "id": 9,
         "name": "XML",
-        "image": "./Assets/Skills/xml.png"
+        "image": "https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/Skills/xml.png"
     },
     {
         "id": 10,
         "name": "PHP",
-        "image": "./Assets/Skills/php.png"
+        "image": "https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/Skills/php.png"
     },
     {
         "id": 11,
         "name": "Laravel",
-        "image": "./Assets/Skills/laravel.png"
+        "image": "https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/Skills/laravel.png"
     },
     
     
     {
         "id": 12,
         "name": "React",
-        "image": "./Assets/Skills/react.jpg"
+        "image": "https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/Skills/react.jpg"
     },
     {
         "id": 13,
         "name": "HTML",
-        "image": "./Assets/Skills/html.png"
+        "image": "https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/Skills/html.png"
     },
     {
         "id": 14,
         "name": "CSS",
-        "image": "./Assets/Skills/css.jpg"
+        "image": "https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/Skills/css.jpg"
     },
     {
         "id": 15,
         "name": "JavaScript",
-        "image": "./Assets/Skills/js.png"
+        "image": "https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/Skills/js.png"
     },
     {
         "id": 16,
         "name": "Tailwind CSS",
-        "image": "./Assets/Skills/tailwind.png"
+        "image": "https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/Skills/tailwind.png"
     },
     {
         "id": 17,
         "name": "Python",
-        "image": "./Assets/Skills/python.jpg"
+        "image": "https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/Skills/python.jpg"
     },
     {
         "id": 18,
         "name": "Unity",
-        "image": "./Assets/Skills/unity.png"
+        "image": "https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/Skills/unity.png"
     },
     {
         "id": 19,
         "name": "SQL",
-        "image": "./Assets/Skills/sql.png"
+        "image": "https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/Skills/sql.png"
     },
     {
         "id": 20,
         "name": "XML",
-        "image": "./Assets/Skills/xml.png"
+        "image": "https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/Skills/xml.png"
     },
     {
         "id": 21,
         "name": "PHP",
-        "image": "./Assets/Skills/php.png"
+        "image": "https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/Skills/php.png"
     },
     {
         "id": 22,
         "name": "Laravel",
-        "image": "./Assets/Skills/laravel.png"
+        "image": "https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/Skills/laravel.png"
     }
 ]

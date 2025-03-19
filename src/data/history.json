@@ -5,7 +5,7 @@
         "company": "BrokerTech Ltd",
         "date": "June 2023 - Present",
         "description": "Responding to clients queries regarding products and reports. Implementing required fixes to bugs or new changes to logic through the use of Python. Using Javascript, HTML, CSS, XML and Velocity.js to create/edit dynamic document generation as well as AWS S3 Buckets for static document generation. Creating/editing regular reports to coincide with customer needs using SQL and python.",
-        "image":"./Assets/History/brokertech.png"
+        "image":"https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/History/brokertech.png"
     },
     {
         "id": 1,
@@ -13,7 +13,7 @@
         "company": "Amazon & Tesco",
         "date": "July 2021 - June 2023",
         "description": "Delivering parcels and groceries to customers in a timely manner. Ensuring that all deliveries are made in a safe and efficient manner. Providing excellent customer service to all customers.",
-        "image":"./Assets/History/tesco.jpg"
+        "image":"https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/History/tesco.jpg"
     },
     {
         "id": 2,
@@ -21,7 +21,7 @@
         "company": "Canterbury Christ Church University",
         "date": "September 2020 - June 2023",
         "description": "Studied BSc Computer Science and achieved a 2:1. Developed a range of skills including programming, web development, and database management. Completed my final year project on a piano education application developed using HTML, JavaScript, Jest testing, and a MIDI keyboard.",
-        "image":"./Assets/History/cccu.png"
+        "image":"https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/History/cccu.png"
     },
     {
         "id": 3,
@@ -29,7 +29,7 @@
         "company": "Old City Bar",
         "date": "May, 2019 - July, 2021",
         "description": "Serving customers and organising staff. Handling deliveries, stock management, bookings, cellar management. Opening and closing of the business including handling till close downs at the end of the day.",
-        "image":"./Assets/History/sheps.png"
+        "image":"https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/History/sheps.png"
     },
     {
         "id": 4,
@@ -37,6 +37,6 @@
         "company": "Shepherd Neame, The Spa Hotel, The Kentish Hare, Hotel Berangere, Mercure Hatfield Oak Hotel",
         "date": "2012 - 2019",
         "description": "Worked various roles in the hospitality industry after finishing 6th form including bar work, waiting tables, kitchen porter, restaurant and bar supervisor, receptionist, and night manager. Developed excellent customer service skills and the ability to work well under pressure.",
-        "image":"./Assets/History/sheps.png"
+        "image":"https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/History/sheps.png"
     }
 ]
