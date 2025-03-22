@@ -15,10 +15,10 @@
     },
     {
         "id": 3,
-        "title": "Restaurant Allergen Menu",
-        "description": "A demo project for a restaurant that allows users to filter down recipes based on allergens.",
+        "title": "Pokemon Library",
+        "description": "A library using an already built Pokemon API, it includes various filters and lookups.",
         "source": "/restaurant1",
-        "image": "https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/Portfolio/restaurant1.png"
+        "image": "https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/Portfolio/pokemon.png"
     },
     {
         "id": 4,
