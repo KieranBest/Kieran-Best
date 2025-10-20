@@ -20,7 +20,7 @@
         "title": "Pokemon Library",
         "description": "A library using an pre-existing Pokemon API, it includes various filters and lookups.",
         "source": "/restaurant1",
-        "image": "https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/Portfolio/pokemon.png",
+        "image": "https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/Portfolio/restaurant1.png",
         "language": "React & Pokemon API"
     },
     {
@@ -44,7 +44,7 @@
         "title": "React Features",
         "description": "React features that I've discovered in my journey so far.",
         "source" : "https://bestwebdev.com/features",
-        "image": "https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/Portfolio/pokemon.png",
+        "image": "https://s3.eu-west-2.amazonaws.com/www.bestwebdev.co.uk/Images/Portfolio/restaurant1.png",
         "language": "React & Tailwind CSS"
     }
 ]

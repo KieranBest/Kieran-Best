@@ -23,7 +23,7 @@ export const Content = () => {
                     </p>
                 </div>
             </div>
-            <div ref={ref2} className={`flex flex-wrap transition-opacity ease-in duration-700 ${isVisible2 ? "opacity-100" : "opacity-0"}`}>
+            <div ref={ref2} className={`flex flex-wrap transition-opacity ease-in duration-500 ${isVisible2 ? "opacity-100" : "opacity-0"}`}>
                 {portfolio.map((project) => (
                     <a href={project.source} target="_blank" key={project.id} 
                         className="md:w-1/2 xl:w-1/3 2xl:w-1/4 w-100 p-4">
