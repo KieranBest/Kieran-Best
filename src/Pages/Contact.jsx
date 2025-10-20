@@ -4,7 +4,7 @@ import { Form } from "../Components/Contact/Form";
 
 export const Contact = () => {
     return (
-        <div className="top-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-800 via-blue-950 to-black text-white min-h-[86vh]">
+        <div className="top-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-600 via-gray-800 to-black text-white min-h-[86vh]">
             <Intro/>
             <Form/>
         </div>

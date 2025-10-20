@@ -13,7 +13,7 @@ export const Intro = () => {
                         }}
                         onInit={(typewriter) => {
                             typewriter
-                                .typeString("Contact Me")
+                                .typeString("Contact Me.npm")
                                 .start()
                         }}
                     />

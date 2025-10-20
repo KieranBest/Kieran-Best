@@ -5,7 +5,6 @@ import { useLocation } from 'react-router-dom';
 
 const navigation = [
     { name: 'Home', href: '/', current: false },
-    { name: 'Projects', href: '/projects', current: false },
     { name: 'About', href: '/about', current: false },
     { name: 'Contact', href: '/contact', current: false },
 ]
@@ -25,27 +24,17 @@ export const Header = () => {
             navigation[0].current = true;
             navigation[1].current = false;
             navigation[2].current = false;
-            navigation[3].current = false;
-            break;
-        case '/projects':
-            navigation[0].current = false;
-            navigation[1].current = true;
-            navigation[2].current = false;
-            navigation[3].current = false;
             break;
         case '/about':
             navigation[0].current = false;
-            navigation[1].current = false;
-            navigation[2].current = true;
-            navigation[3].current = false;
+            navigation[1].current = true;
+            navigation[2].current = false;
             break;
         case '/contact':
             navigation[0].current = false;
             navigation[1].current = false;
-            navigation[2].current = false;
-            navigation[3].current = true;
+            navigation[2].current = true;
             break;
-        
         default:
             break;
     }
@@ -77,7 +66,7 @@ export const Header = () => {
                                         key={item.name}
                                         href={item.href}
                                         className={classNames(
-                                        item.current ? 'bg-red-900 text-white' : 'text-gray-300 hover:bg-slate-700 hover:text-white transition duration-500 hover:scale-125',
+                                        item.current ? 'bg-red-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white transition duration-500 hover:scale-125',
                                         'rounded-md px-3 py-2 text-lg font-medium'
                                         )}
                                         aria-current={item.current ? 'page' : undefined}
